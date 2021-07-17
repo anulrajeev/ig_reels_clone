@@ -1,0 +1,53 @@
+.app__logo{
+    height: 12vh;
+}
+
+
+html{
+scroll-snap-type: y mandatory;
+} 
+
+.app{
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background-color: black; 
+}
+.app__top{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.app__top > h1{
+    text-align: center;
+    color: white;
+}
+
+.app__videos{
+    position: relative;
+    height: 65vh;
+    background-color: white;
+    width: 70%;
+    border-radius: 20px;
+    max-width: 450px;
+    max-height: 1200px;
+    overflow: scroll;
+    scroll-snap-type: y mandatory;
+    
+}
+
+.app__videos::-webkit-scrollbar{
+    display: none;
+}
+.app__videos{
+    -ms-overflow-style:none;
+    scrollbar-width: none;
+}
+
+.app__footer{
+    color: white;
+    align-items: center;
+    display: flex;
+}
+.app__footer > *{
+    padding: 0 10px;
+}

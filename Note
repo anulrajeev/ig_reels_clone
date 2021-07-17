@@ -1,0 +1,5 @@
+If the folder project is copied from one location to another 
+
+rm package-lock.json
+rm -rf node_modules
+npm install
