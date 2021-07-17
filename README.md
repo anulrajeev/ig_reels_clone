@@ -1,9 +1,9 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).\
 <a href="https://ig-reels-1c950.web.app/">Click here </a>to view the deployed project
 
-#Main feature :
+### Main feature :
  <img src="https://github.com/anulrajeev/readme_images/blob/master/ig_reels.png?raw=true" height=500px>
 
 ## Available Scripts
